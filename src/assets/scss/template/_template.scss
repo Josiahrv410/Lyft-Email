@@ -1,0 +1,246 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+/*=================================
+============= LOGO ================
+=================================*/
+
+.logo {
+  img {
+    padding-top: 20px;
+    width: 10% !important;
+  }
+}
+
+/*=================================
+============= THANKS ==============
+=================================*/
+
+.thanks {
+  h6 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  h5 {
+    font-size: 16px;
+    hyphens: none;
+    a {
+      color: #ff00bf;
+      text-decoration: underline;
+    }
+  }
+  img {
+    border-radius: 150px;
+    width: 80% !important;
+  }
+}
+
+/*=================================
+============ RECEIPT ==============
+=================================*/
+
+.receipt {
+  span {
+    display: block;
+    font-weight: 300;
+    img {
+      padding-top: 5px;
+      width: 30px !important;
+      display: inline-block;
+    }
+  }
+}
+
+/*=================================
+============ DIVIDER ==============
+=================================*/
+
+.divider {
+  & > tbody > tr > th {
+    border-bottom: 1px solid black;
+  }
+}
+
+/*=================================
+============ PAYMENT ==============
+=================================*/
+
+.payment {
+  span {
+    display: block;
+    font-weight: 300;
+    img {
+      padding-top: 5px;
+      width: 30px !important;
+      display: inline-block;
+    }
+  }
+  h4 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+/*=================================
+============= PICKUP ==============
+=================================*/
+
+.pickup {
+  img {
+    padding-top: 7px;
+    width: 10px !important;
+  }
+  .pickup {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .time {
+    font-size: 17px;
+    font-weight: 600;
+    color: #acacc0;
+  }
+  h6 {
+    font-weight: 300;
+  }
+}
+
+/*=================================
+============ DROPOFF ==============
+=================================*/
+
+.dropoff {
+  img {
+    padding-top: 7px;
+    width: 10px !important;
+  }
+  .pickup {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .time {
+    font-size: 17px;
+    font-weight: 600;
+    color: #acacc0;
+  }
+  h6 {
+    font-weight: 300;
+  }
+}
+
+/*=================================
+============ REWARDS ==============
+=================================*/
+
+.rewards {
+  .bg {
+    background-color: #c8cbfc;
+    background: #c8cbfc;
+  }
+  img {
+    width: 120px !important;
+  }
+  h5 {
+    color: #5245c2;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  h6 {
+    color: #5245c2;
+    font-size: 17px;
+  }
+  a {
+    color: #5245c2;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+}
+
+/*=================================
+============ FOOTER ==============
+=================================*/
+
+.footer {
+  background: #f4f4fa;
+  .btn {
+    border-radius: 50px;
+    background: white;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    &.tip {
+      padding-left: 58px;
+      padding-right: 57px;
+    }
+    &.find {
+      padding-left: 35px;
+      padding-right: 37px;
+    }
+  }
+  span {
+    color: #63637b;
+    font-size: 13px;
+    &.receipt {
+      font-size: 15px;
+      font-weight: 300;
+    }
+    &.company {
+      font-size: 17px;
+      font-weight: 300;
+    }
+  }
+  p {
+    color: #63637b;
+    font-size: 13px;
+    a {
+      color: #ff00bf;
+      text-decoration: underline;
+    }
+  }
+  .help {
+    color: #ff00bf;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  h5 {
+    color: #63637b;
+    font-size: 13px;
+    a {
+      color: #ff00bf;
+      text-decoration: underline;
+    }
+  }
+  .links {
+    color: #ff00bf;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+  h6 {
+    color: #63637b;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 17px;
+  }
+  .driver {
+    color: #63637b;
+    font-size: 13px;
+    font-weight: 300;
+  }
+}
